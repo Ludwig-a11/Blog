@@ -12,8 +12,9 @@
 
 .headerTitleSm{
   position: absolute;
-  top: 19%;
+  top: 13%;
   font-size: 23px;
+  color: #444;
 }
 
 .headerTitleLg{

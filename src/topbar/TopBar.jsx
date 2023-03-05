@@ -8,6 +8,7 @@ const TopBar = () => {
         <i className="topIcon fa-brands fa-linkedin"></i>
         <i className="topIcon fa-brands fa-facebook"></i>
         <i className="topIcon fa-brands fa-github"></i>
+        <i className="topIcon fa-brands fa-twitter"></i>
       </div>
 
       <div className='topCenter'>
