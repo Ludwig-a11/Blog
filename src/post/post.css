@@ -1,6 +1,8 @@
 .post{
+  font-family: 'Josefin Sans', sans-serif;
   width: 385px;
-  margin: 0px 25px 40px, 25px;
+  margin-top: 15px;
+  
 }
 
 .postImg{
@@ -17,11 +19,41 @@
 }
 
 .postCat{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 11px;
+  
+  font-size: 15px;
   color: #be9656;
   line-height: 20px;
   margin-top: 15px;
   margin-right: 10px;
   cursor: pointer;
 }
+
+.postTitle{
+  
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.postDate{
+  
+  font-size: 15px;
+  font-weight: 500;
+  color: #2e2e2e;
+  margin-top: 15px;
+}
+
+.postDesc{
+  
+  font-size: 14px;
+  color: #444;
+  line-height: 20px;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+

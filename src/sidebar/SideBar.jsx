@@ -25,10 +25,10 @@ const SideBar = () => {
         <div className="sidebarItem">
           <span className="sidebarTitle">FOLLOW ME</span>
           <div className="sidebarSocial">
-            <i className="sidebarIcon fa-brands fa-linkedin"></i>
-            <i className="sidebarIcon fa-brands fa-facebook"></i>
-            <i className="sidebarIcon fa-brands fa-github"></i>
-            <i className="sidebarIcon fa-brands fa-twitter"></i>
+            <a href="https://www.linkedin.com/in/luis-zarza-471b06132/" target={'_blank'}><i className="sidebarIcon fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/lzarza3" target={'_blank'}><i className="sidebarIcon fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/Ludwig-a11" target={'_blank'}><i className="sidebarIcon fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/home" target={'_blank'} ><i className="sidebarIcon fa-brands fa-twitter"></i></a>
           </div>
         </div>
       </div>

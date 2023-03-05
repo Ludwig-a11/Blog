@@ -5,20 +5,21 @@ const TopBar = () => {
   return (
     <div className='top'>
       <div className='topLeft'>
-        <i className="topIcon fa-brands fa-linkedin"></i>
-        <i className="topIcon fa-brands fa-facebook"></i>
-        <i className="topIcon fa-brands fa-github"></i>
-        <i className="topIcon fa-brands fa-twitter"></i>
+        <a href="https://www.linkedin.com/in/luis-zarza-471b06132/" target={'_blank'}><i className="topIcon fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/lzarza3" target={'_blank'}><i className="topIcon fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/Ludwig-a11" target={'_blank'}><i className="topIcon fa-brands fa-github"></i></a>
+        <a href="https://twitter.com/home" target={'_blank'} ><i className="topIcon fa-brands fa-twitter"></i></a>
+        
       </div>
 
       <div className='topCenter'>
-      <ul className="topList">
-        <li className='topListItem'>HOME</li>
-        <li className='topListItem'>ABOUT</li>
-        <li className='topListItem'>CONTACT</li>
-        <li className='topListItem'>WRITE</li>
-        <li className='topListItem'>LOG OUT</li>
-      </ul>
+        <ul className="topList">
+          <li className='topListItem'>HOME</li>
+          <li className='topListItem'>ABOUT</li>
+          <li className='topListItem'>CONTACT</li>
+          <li className='topListItem'>WRITE</li>
+          <li className='topListItem'>LOG OUT</li>
+        </ul>
       </div>
 
       <div className='topRight'>
